@@ -3,7 +3,28 @@
 <head>
 <meta charset ="UTF-8">
 <title> フロートレワト練習 </title>
+<style type ="text/css">
 
+		body{ background:#aaa;margin:0;padding:0;}
+		#wrapper{width:800px; margin:auto;}
+		#container {overflow:hidden;background :#633;}
+		//1028
+		.navi{margin:0;padding:0;width:800px;background:#069;}
+		.navi ul{margin:0;padding:0;list-style-type:none;overflow:hidden;}
+		.navi li{float:left;}
+		.navi a{display:block;text-align:center;text-decoration:none;width:155px;font-size:16px;
+				line-height:30px;background:#06c;color:#fff;border-left:solid 3px #3b8bff;
+				border-right:solid 3px #093791;}
+				.navi a :hover{background:#08317e;}
+				.navi a:active{background :#636;}
+		
+		#header {background:#336;padding:5px;}
+		#header h1 {margin:0;padding:5px; }
+				#content { padding:5px;background:#fff;width:590px;float:right;}
+		
+		#sidebar {padding:5px; background :#633;width:190px;float:left;}
+		#footer{padding:5px;background:#333;color:#fff;}
+	</style>
 
 	<body>
 <div id ="wrapper">
